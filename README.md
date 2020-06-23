@@ -1,5 +1,5 @@
 Stochfold implements diffrent algorithms for predicting the folding of RNA. Specifically, it provides:
-  1) Zuker algorithm: preicting minimum free energy (MFE) secondary structure of RNA in thermodynamics.
+  1) Zuker algorithm: predicting minimum free energy (MFE) secondary structure of RNA in thermodynamics.
   2) StochFold algorithm: predicting folding kinetics of RNA. The folding is defined by element actions on a base pair, i.e., the adding a base pair, deleting a base-pair and shifting a base pair, following the Watson-Crick rule. The transition between RNA conformations defines a continuous-time Markov process where its rate is measured by the Metropolis rule. The algorithm inplements the kinetic Monte Carlo (also known as Gillespie algorithm) to realize a foldng path.  
   3) CostochFold algorithm: predicting cotranscriptional folding of RNA by taking into account its transcription process. RNA folds simulteneously after new nucleotides synthesized during the transcription. The transcription process is explicitly considered by including the action of elongation. In elongation, the current RNA chain increases in length and a newly synthesized nucleotide is added to its 3' end.
   
