@@ -1,0 +1,32 @@
+Example of 'input.txt' (that should be located in the build folder) starting with '>':
+
+>fixed PKB115
+CGGUAGCGCGAACCGUUAUCGCGCA
+.........................
+
+# filenames given without ".txt"
+# fileid is not necessary, it is automatically added to the end of the filenames
+fileid=TEST
+# Simulation output file, the raw results (every step)
+sofile=results/raw/results
+# Analysis output file
+aofile=results/distributions/disCounts
+# number of threads will default to max number if not specified 
+# will create $thr textfiles to store the raw results
+#thr=8
+# number of runs per thread and duration of a run
+runs=0, duration=30.0
+# start, end, and interval of the simulation Analysis
+start=0.0, interval=1, end=30
+# most frequent or a list of wanted secondary structures in dot-bracket form
+mostfreq=8
+# Note conformation families can be added to the conformations list
+# commented example below
+#conformations={
+#.....((((((.......)))))).
+#(....[[[[[[...)...]]]]]].
+#EPhE
+#}
+# uncomment 'timeAnalysis' to make a time-based Analysis instead of count-based (requires conformations)
+#timeAnalysis
+---
