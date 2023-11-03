@@ -4,7 +4,7 @@ Stochfold implements different kinetic algorithms for predicting the folding of 
 
 The extension of these folding algorithms to include pseudoknots was developed by Dani Korpela.  
 ## Main reference:
-Vo Hong Thanh, Dani Korpela and Pekka Orponen. Cotranscriptional kinetic folding of RNA secondary structures including pseudoknots. Journal of Computational Biology. 2021 (accepted).
+Vo Hong Thanh, Dani Korpela and Pekka Orponen. Cotranscriptional kinetic folding of RNA secondary structures including pseudoknots. _Journal of Computational Biology_ 28(9):892-908. doi: 10.1089/cmb.2020.0606, 2021.
 
 ## Further readings and references:
 The theoretical background in RNA folding is in [1]. The Zuker algorithm is developed by Zuker and Stiegler [2]. The stochastic folding of RNA is developed by Flamm *et al.* [3]. The book by Marchetti et al. [5] gives a comprehensive review and recent developments in stochastic simulation. 
